@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLEARCODE	prompt.cpp	27;"	d	file:
+CLEAR_COMMAND	prompt.cpp	11;"	d	file:
+ENTER	prompt.cpp	13;"	d	file:
+ENTERCODE	prompt.cpp	25;"	d	file:
+EXITCODE	prompt.cpp	24;"	d	file:
+EXIT_COMMAND	prompt.cpp	14;"	d	file:
+GENCODE	prompt.cpp	23;"	d	file:
+GEN_COMMAND	prompt.cpp	10;"	d	file:
+Generator	recurGen.cpp	/^class Generator$/;"	c	file:
+HELP	prompt.cpp	12;"	d	file:
+HELPCODE	prompt.cpp	26;"	d	file:
+PRINTCONFIGCODE	prompt.cpp	31;"	d	file:
+PRINTPCODE	prompt.cpp	28;"	d	file:
+PRINTTCODE	prompt.cpp	29;"	d	file:
+PRINTVCODE	prompt.cpp	30;"	d	file:
+PRINT_CONFIG_COMMAND	prompt.cpp	18;"	d	file:
+PRINT_PRO_COMMAND	prompt.cpp	15;"	d	file:
+PRINT_TER_COMMAND	prompt.cpp	16;"	d	file:
+PRINT_VAR_COMMAND	prompt.cpp	17;"	d	file:
+PROCODE	prompt.cpp	22;"	d	file:
+PROMPT	data_entry.cpp	9;"	d	file:
+PRO_COMMAND	prompt.cpp	9;"	d	file:
+S	numberRecognizeExamlpe.cpp	/^bool S() { $/;"	f
+S	output.cpp	/^bool S() { $/;"	f
+SEPARATOR	mpm_recgen.cpp	16;"	d	file:
+SourceMaker	recurGen.cpp	/^class SourceMaker$/;"	c	file:
+TERCODE	prompt.cpp	20;"	d	file:
+TERMINAL_INDICATOR	data_entry.cpp	7;"	d	file:
+TERMINAL_INDICATOR	mpm_recgen.cpp	14;"	d	file:
+TER_COMMAND	prompt.cpp	7;"	d	file:
+TOKEN	parseProduction.cpp	3;"	d	file:
+VARCODE	prompt.cpp	21;"	d	file:
+VARIABLE_INDICATOR	data_entry.cpp	8;"	d	file:
+VARIABLE_INDICATOR	mpm_recgen.cpp	15;"	d	file:
+VAR_COMMAND	prompt.cpp	8;"	d	file:
+YPROMPT	prompt.cpp	32;"	d	file:
+_DATA_ENTRY_H	data_entry.h	2;"	d
+_PROGRAM_HANDLER_H	program_handler.h	2;"	d
+_PROMPT_H	prompt.h	2;"	d
+addProduction	data_entry.cpp	/^void addProduction(string pr)$/;"	f
+addTerminal	data_entry.cpp	/^void addTerminal(string ter)$/;"	f
+addVariable	data_entry.cpp	/^void addVariable(string var)$/;"	f
+classify	data_entry.cpp	/^map<string, int> classify;$/;"	v
+closeFile	program_handler.cpp	/^void closeFile()$/;"	f
+correctConfig	program_handler.cpp	/^void correctConfig()$/;"	f
+correct_conf	program_handler.cpp	/^bool correct_conf = true;$/;"	v
+createFile	program_handler.cpp	/^void createFile()$/;"	f
+enterProductions	data_entry.cpp	/^void enterProductions()$/;"	f
+enterTerminals	data_entry.cpp	/^void enterTerminals()$/;"	f
+enterVariables	data_entry.cpp	/^void enterVariables()$/;"	f
+filename	program_handler.cpp	/^const char *filename = ".\/output.cpp";$/;"	v
+fobj	program_handler.cpp	/^ofstream fobj;$/;"	v
+func_names	recurGen.cpp	/^char func_names[100][100];$/;"	v
+generateConfigFile	data_entry.cpp	/^void generateConfigFile()$/;"	f
+getCode	prompt.cpp	/^int getCode(string command)$/;"	f
+group_productions	data_entry.cpp	/^list<string> group_productions;$/;"	v
+group_variables	data_entry.cpp	/^list<string> group_variables;$/;"	v
+i	numberRecognizeExamlpe.cpp	/^int i=0;$/;"	v
+i	output.cpp	/^int i=0;$/;"	v
+init	mpm_recgen.cpp	/^void init()$/;"	f
+main	mpm_recgen.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	numberRecognizeExamlpe.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	output.cpp	/^int main(int argc, char* argv[])$/;"	f
+makeClean	program_handler.cpp	/^void makeClean()$/;"	f
+makeExe	program_handler.cpp	/^void makeExe()$/;"	f
+makeFunction	mpm_recgen.cpp	/^void makeFunction(string lhs, list<string> rhs)$/;"	f
+makeProdFunction	mpm_recgen.cpp	/^void makeProdFunction(string pstring)$/;"	f
+makeProdFunction	parseProduction.cpp	/^void makeProdFunction(string pstring)$/;"	f
+menu	prompt.cpp	/^void menu(int en_prompt=0)$/;"	f
+parseProductions	mpm_recgen.cpp	/^void parseProductions()$/;"	f
+printProductions	data_entry.cpp	/^void printProductions()$/;"	f
+printTerminals	data_entry.cpp	/^void printTerminals()$/;"	f
+printVariables	data_entry.cpp	/^void printVariables()$/;"	f
+production_count	mpm_recgen.cpp	/^int production_count;$/;"	v
+prompt	prompt.cpp	/^int prompt()$/;"	f
+readFile	data_entry.cpp	/^void readFile(string filename)$/;"	f
+start_symbol_set	mpm_recgen.cpp	/^bool start_symbol_set = false;$/;"	v
+str	numberRecognizeExamlpe.cpp	/^char *str;$/;"	v
+str	output.cpp	/^char *str;$/;"	v
+terminal_count	mpm_recgen.cpp	/^int terminal_count;$/;"	v
+terminals	recurGen.cpp	/^char terminals[100][100];$/;"	v
+variable_count	mpm_recgen.cpp	/^int variable_count;$/;"	v
+variables	recurGen.cpp	/^char variables[100][100];$/;"	v
